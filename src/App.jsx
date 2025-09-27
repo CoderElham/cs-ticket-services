@@ -17,8 +17,12 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Suspense fallback={<span className="loading loading-spinner loading-md"></span>}>
-        <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
+      <Suspense fallback={
+        <div className='w-11/12 mx-auto'>
+          <span className="loading loading-spinner loading-lg"></span>
+        </div>
+      }>
+      <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
       </Suspense>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
