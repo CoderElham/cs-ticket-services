@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot access.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+    "customer": "Sarah Johnson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-02-03"
+  },
+  {
+    "id": 1003,
+    "title": "Account Locked - Security Alert",
+    "description": "Customer's account was locked after multiple failed login attempts.",
+    "customer": "Michael Brown",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-02-18"
+  },
+  {
+    "id": 1004,
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund 10 days ago but the refund has not been reflected in their bank account.",
+    "customer": "Emily Davis",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-03-01"
+  },
+  {
+    "id": 1005,
+    "title": "Order Not Delivered",
+    "description": "Customer placed an order two weeks ago but has not received the delivery yet.",
+    "customer": "David Wilson",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-03-14"
+  },
+  {
+    "id": 1006,
+    "title": "Password Reset Email Not Received",
+    "description": "Customer requested a password reset but never received the reset email.",
+    "customer": "Sophia Martinez",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": 1007,
+    "title": "App Crashing on Login",
+    "description": "The mobile app crashes immediately when the customer tries to log in.",
+    "customer": "James Anderson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-04-19"
+  },
+  {
+    "id": 1008,
+    "title": "Duplicate Payment Charged",
+    "description": "Customer was charged twice for a single transaction.",
+    "customer": "Olivia Thomas",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-05-07"
+  },
+  {
+    "id": 1009,
+    "title": "Unable to Update Profile",
+    "description": "Customer cannot update their phone number or address in the profile settings.",
+    "customer": "William Jackson",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-05-28"
+  },
+  {
+    "id": 1010,
+    "title": "Subscription Not Renewing",
+    "description": "Customer’s subscription did not auto-renew even though payment details are valid.",
+    "customer": "Isabella White",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-06-11"
+  },
+  {
+    "id": 1011,
+    "title": "Gift Card Not Working",
+    "description": "Customer tried to redeem a gift card but it shows invalid code.",
+    "customer": "Benjamin Harris",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-06-30"
+  },
+  {
+    "id": 1012,
+    "title": "Delayed Customer Support Response",
+    "description": "Customer submitted a support ticket 5 days ago but has not received a reply.",
+    "customer": "Mia Lewis",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-07-15"
+  },
+  {
+    "id": 1013,
+    "title": "Incorrect Billing Amount",
+    "description": "Customer was charged a higher amount than displayed during checkout.",
+    "customer": "Ethan Clark",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-08-04"
+  },
+  {
+    "id": 1014,
+    "title": "Unable to Cancel Order",
+    "description": "Customer tried to cancel an order but the option was not available on the app.",
+    "customer": "Ava Robinson",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-09-10"
+  },
+  {
+    "id": 1015,
+    "title": "Wrong Item Delivered",
+    "description": "Customer received a different product instead of what they ordered.",
+    "customer": "Lucas Walker",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2025-10-01"
+  }
+]
