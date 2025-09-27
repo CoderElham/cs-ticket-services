@@ -22,7 +22,7 @@ function App() {
           <span className="loading loading-spinner loading-lg"></span>
         </div>
       }>
-      <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
+        <IssueManagement fetchPromise={fetchPromise}></IssueManagement>
       </Suspense>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
