@@ -1,11 +1,15 @@
 import './App.css'
-import Footer from './assets/Components/Footer/Footer'
-import Navbar from './assets/Components/Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
+import Counter from './Components/Counter/Counter'
 function App() {
 
   return (
     <>
       <Navbar></Navbar>
+
+      <Counter></Counter>
+
       <Footer></Footer>
     </>
   )
