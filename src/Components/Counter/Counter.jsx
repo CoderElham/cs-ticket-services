@@ -4,6 +4,7 @@ const Counter = ({ data }) => {
   console.log(data)
 
   const inProgressData = data.filter(element => element.status == "In-Progress")
+  const resolvedData = data.filter(element => element.status === "Resolved");
   console.log(inProgressData);
 
   return (
@@ -27,7 +28,7 @@ const Counter = ({ data }) => {
         </div>
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white'>
           <p className='text-[20px]'>Resolved</p>
-          <span className='text-[40px] font-semibold'>0</span>
+          <span className='text-[40px] font-semibold'>{resolvedData.length}</span>
         </div>
       </div>
 

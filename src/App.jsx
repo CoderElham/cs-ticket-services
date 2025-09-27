@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import IssueManagement from './Components/IssueManagement/IssueManagement'
 import { Suspense } from 'react'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const fetchIssues = async () => {
   const result = await fetch("/data.json")
@@ -20,6 +22,7 @@ function App() {
       </Suspense>
       <Footer></Footer>
 
+      <ToastContainer></ToastContainer>
     </>
   )
 }

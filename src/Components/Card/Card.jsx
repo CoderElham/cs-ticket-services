@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaCircle, FaCalendarAlt } from "react-icons/fa";
 
 const Card = ({ issue, handleStatusChange }) => {
